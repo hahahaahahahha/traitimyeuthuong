@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    /* Header */
+    .header {
+      background: #fff;
+      text-align: center;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header h1 {
+      font-size: 60px;
+      color: #2c3e50;
+    }
+
+    .header p {
+      font-size: 20px;
+      color: #7f8c8d;
+    }
+
+    /* Navigation Bar */
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    .topnav a {
+      display: inline-block;
+      color: #f2f2f2;
+      padding: 16px 20px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: #333;
+    }
+
+    .topnav a.right {
+      float: right;
+    }
+
+    /* Content Columns */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 30px;
+    }
+
+    /* Left Column */
+    .leftcolumn {
+      flex: 3;
+      margin-right: 20px;
+    }
+
+    .card {
+      background-color: white;
+      margin-bottom: 30px;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card h2 {
+      color: #2c3e50;
+      font-size: 28px;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      color: #7f8c8d;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    /* Right Column */
+    .rightcolumn {
+      flex: 1;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .rightcolumn .card {
+      margin-bottom: 20px;
+    }
+
+    .rightcolumn img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    /* Footer */
+    .footer {
+      background-color: #34495e;
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .footer h2 {
+      font-size: 24px;
+    }
+
+    .footer h3 {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    /* Responsive Design */
+    @media screen and (max-width: 800px) {
+      .leftcolumn, .rightcolumn {
+        flex: 1 100%;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Việc làm từ trái tim</h1>
+    <p>Hãy sống một cuộc đời ý nghĩa</p>
+  </div>
+
+  <div class="topnav">
+    <a href="#">Trang chủ</a>
+    <a href="#">Hoạt động</a>
+    <a href="#">Thông tin chi tiết</a>
+    <a href="#" class="right">Liên hệ</a>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h2>TRAO GỬI YÊU THƯƠNG</h2>
+        <h5>Ngày...tháng ...năm</h5>
+        <img src="https://baomoi.vinhphuc.gov.vn//Upload/baiviet/2024/1/1/ttbhue/999_412486705_1472321653351829_3626978347499799593_n.jpeg" alt="Giving love" />
+        <p>Một chút yêu thương..</p>
+        <p>Hãy cho đi khi còn có thể vì ngoài kia vẫn còn những mảnh đời cần được chúng ta chở che và yêu thương...</p>
+      </div>
+
+      <div class="card">
+        <h2>CHO ĐI LÀ CÒN MÃI</h2>
+        <h5>Ngày...tháng ...năm</h5>
+        <img src="https://acefoods.vn/images/news/202458103336.jpg" alt="Giving is everlasting" />
+        <p>“Sống trong đời sống cần có một tấm lòng…”</p>
+        <p>Những việc xuất phát từ trái tim luôn là những điều quý giá nhất. Hãy làm ta hạnh phúc bằng cách làm hạnh phúc người khác...</p>
+      </div>
+    </div>
+
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>Thông tin chi tiết</h2>
+        <img src="n:\1.jfif" alt="Details" />
+        <p>Hãy đem trái tim mình gửi đến xã hội..</p>
+      </div>
+
+      <div class="card">
+        <h3>Hoạt động gửi trao</h3>
+        <img src="n:\5.jfif" alt="Activities" />
+        <img src="c:\Users\D01\Downloads\images (1) (1).jpg" alt="Activities" />
+        <img src="c:\Users\D01\Downloads\3.jfif" alt="Activities" />
+      </div>
+
+      <div class="card">
+        <h3>Hãy làm cùng nhau...</h3>
+        <img src="c:\Users\D01\Downloads\2.jfif" alt="Collaboration" />
+        <p>Khi ta làm việc tốt, ta đang góp phần tô thêm một phần màu hồng cho đất nước của chúng ta...</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Một xã hội hạnh phúc là một đất nước phát triển</h2>
+    <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-china-youth-volunteer-service-day-publicity-poster-image_191133.jpg" alt="Volunteer Poster" width="100%" />
+    <h3>NHÓM: 12A9</h3>
+    <p>Phạm Thị Ngọc Phụng, Lý Gia Doanh, Nguyễn Quốc Bảo</p>
+  </div>
+
+</body>
+</html>
